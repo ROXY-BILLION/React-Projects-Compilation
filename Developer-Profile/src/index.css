@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 43, 43);
+  margin-top: 40px;
+  text-align: center;
+}
+.img{
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+}
+.cl{
+  background-color: aqua;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+button{
+  padding: 20px;
+  background-color: rgb(24, 38, 38);
+  color: white;
+  margin: 20px;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(57, 72, 72);
+  color: white;
+}
